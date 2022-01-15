@@ -10,31 +10,28 @@
 # 출력 :
 # 첫째 줄에 달팽이가 나무 막대를 모두 올라가는데 며칠이 걸리는지 출력한다.
 
+
+
+# num = input()
+# num = num.split(" ")
+# num = list(map(int, num))
+# # A:등반(num[0]), B:미끌(num[1]), V:높이(num[2])
+
+# answer = 0
+# for i in range(1, num[2]+1):
+#     answer += num[0]
+#     if answer >= num[2]:
+#         print(i)
+#         break
+#     else:
+#         answer -= num[1]
+
+import math
+
 num = input()
-num =num.split(" ")
+num = num.split(" ")
 num = list(map(int, num))
+# A:등반(num[0]), B:미끌(num[1]), V:높이(num[2])
 
-# A : 오름(num[0]), B : 미끌(num[1]), V : 막대 높이(num[2])
-
-# try1 = num[2] // num[0]
-# hike = 0
-# if num[0]*1 > num[2]:
-#     print(1)
-
-# if num[2] / num[0] > 1:
-#     for i in range(2, num[2]):
-#         hike = num[0]*i
-#         answer = hike - num[1]*i
-#         answer = answer + num[0]
-#         if answer > num[2]:
-#             print(i)
-#             break
-
-one_day = num[0] - num[1]
-day = (num[2] - num[0])//num[0]
-
-for i in range(1, day + 3):
-    if num[0] > num[2]:
-        print(1)
-    elif one_day*i > num[2] - num[0]:
-        print(i+1)
+day = (num[2]-num[0])/(num[0]-num[1])
+print(math.ceil(day+1))
