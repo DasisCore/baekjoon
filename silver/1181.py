@@ -30,5 +30,5 @@ for i in range(len(last)):
     if last[i][1] not in answer: # answer안에 같은 값이 없을 경우만 리스트에 추가
         answer.append(last[i][1])
 
-for i in range(len(answer)):
-    print(answer[i])
+for i in range(len(answer)): # 출력 양식에 맞추어 print
+    print(answer[i]) 
