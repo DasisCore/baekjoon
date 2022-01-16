@@ -24,26 +24,6 @@
 # 출력 :
 # 프로그램은 표준 출력에 출력한다. 각 테스트 데이터마다 정확히 한 행을 출력하는데, 내용은 N 번째 손님에게 배정되어야 하는 방 번호를 출력한다.
 
-# test = int(input())
-
-# for i in range(test):
-#     nums = input()
-#     nums = nums.split(" ")
-#     nums = list(map(int, nums)) #층:nums[0], 방:nums[1], 손님:nums[2]
-    
-#     floor = []
-#     for i in range(1, nums[0]+1):
-#         floor.append(i)
-#     flo = floor[nums[0]-((nums[2]//nums[0])-1)]
-
-#     floor = (nums[2]//nums[0]) #층수 계산
-#     room = (nums[2]%nums[0])+1 #호수 계산
-
-#     if room < 10: # 방이 10호실 이하일 경우를 대비 
-#         print("%s0%s" %(flo, room))
-#     else:
-#         print("%s%s" %(flo, room))
-
 
 test = int(input())
 
@@ -57,7 +37,14 @@ for i in range(test):
         floor.append(i)
 
     flo = floor[(nums[2]-1)%len(floor)]
-    room = (nums[2]//nums[0])+1 #호수 계산
+    room = (nums[2]//nums[0])
+
+    if (nums[2]/nums[0]) < 1: # 층수가 손님수 보다 적을 때
+        room = 1
+    elif (nums[2]%nums[0]) == 0: # 손님수가 층수의 배수일 때
+        room = (nums[2]//nums[0])
+    else: #일반적인 경우
+        room = (nums[2]//nums[0]) + 1
 
     if room < 10: # 방이 10호실 이하일 경우를 대비 
         print("%s0%s" %(flo, room))
