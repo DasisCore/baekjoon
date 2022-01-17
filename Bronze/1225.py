@@ -16,7 +16,7 @@
 # nums = input().split(" ") #입력값의 리스트화, int화
 
 # answer = 0
-# for i in nums[0]:
+# for i in nums[0]: #문제에서 주어진 예시대로 구현
 #     for j in nums[1]:
 #         answer += int(i)*int(j)
 
