@@ -42,46 +42,20 @@ for i in range(N-7): # N : 세로, M : 가로
     for j in range(M-7):  #여기까지의 for문이 체스판의 개수
         white = 0
         black = 0
-        for k in range(i, i+8): #체스무늬가 나와야 함을 주의.
-            for l in range(j, j+8):
-                if (k+l) % 2 == 0:
+        #체스무늬가 나와야 함을 주의.
+        for k in range(i, i+8):  # 세로
+            for l in range(j, j+8): # 가로
+                if (k + l) % 2 == 0:
                     if paper[k][l] != 'W':
                         white += 1
-                    elif paper[k][l] != 'B':
+                    if paper[k][l] != 'B':
                         black += 1
                 else:
                     if paper[k][l] != 'B':
-                        white =+ 1
-                    elif paper[k][l] != 'W':
+                        white += 1
+                    if paper[k][l] != 'W':
                         black += 1
         check.append(white)
         check.append(black)
 print(check)
 print(min(check))
-
-N, M = map(int, input().split())
-board = list()
-for i in range(N):
-    board.append(input())
-repair = list()
-
-for i in range(N-7):
-    for j in range(M-7):
-        first_W = 0
-        first_B = 0
-        for k in range(i,i+8):
-            for l in range(j,j + 8):
-                if (k + l) % 2 == 0:
-                    if board[k][l] != 'W':
-                        first_W = first_W+1
-                    if board[k][l] != 'B':
-                        first_B = first_B + 1
-                else:
-                    if board[k][l] != 'B':
-                        first_W = first_W+1
-                    if board[k][l] != 'W':
-                        first_B = first_B + 1
-        repair.append(first_W)
-        repair.append(first_B)
-
-print(min(repair))
