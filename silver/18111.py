@@ -35,4 +35,4 @@ for high in range(0, 257): #전체 높이
 
 answer.sort(key= lambda x : (x[0], -x[1])) 
 #  x[0]을 기준으로 정렬, 이후 값이 같을 경우 x[1]의 내림차순
-print(*answer[0])
+print(*answer[0]) #언팩
