@@ -42,23 +42,24 @@ n = int(input())
 li = list(map(int, input().split()))
 li.sort()
 
-s = 0
-e = n - 1
+
 
 x = li[0]
 y = li[n - 1]
 
 cnt = 0
 for i in range(n):
-    temp = li[:i] + li[i+1:] #i를 제외한 임시 리스트
+    temp = li[:i] + li[i+1:] # i를 제외한 임시 리스트
+    s = 0
+    e = len(temp) - 1 
     while s < e:
         total = temp[s] + temp[e]
         if total == li[i]:
             cnt += 1
             break        
-        elif total < li[i]:
+        elif total < li[i]: # s를 한칸 밀어 total을 크게
             s += 1
-        else:
+        else: # e를 한칸 당겨 total을 작게
             e -= 1
 
 print(cnt)
