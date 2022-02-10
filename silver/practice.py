@@ -1,25 +1,44 @@
 # 이곳은 문제를 풀며 자유롭게 코드를 짜볼 수 있는 공간입니다.
 
+# 두 수의 최대공약수 구하기
+def prime(a, b):
+    while a % b != 0:
+        a, b = b, a % b
+    return b
 
-li = list(map(int, input()))
+a, b = map(int, input().split())
+N = b // a
+
+li = [] # N의 약수 구하기
+for i in range(1, N + 1):
+    if i * i > N:
+        break
+    if N % i == 0:
+        li.append(i)
+        if i * i != N:
+            li.append(N // i)
 li.sort()
 
-answer = []
-for i in range(0, len(li)):
-    if len(answer) > 2 and li[i] == answer[-1] and li[i] == answer[-2]:
-        answer.pop()
-        answer.pop()
-    else:
-        answer.append(li[i])
+srs = 999999999999
 
-if len(answer) > 3:
-    if answer[3] + 1 == answer[4] and answer[4] + 1 == answer[5]:
-        print("babygin!")
+# 투포인터 사용
+s = 0
+e = len(li) - 1
+
+while s < e:
+    if li[s] * li[e] == N and prime(li[s], li[e]) == 1:
+        if li[s] + li[e] < srs:
+            srs = li[s] + li[e]
+            x = li[s]
+            y = li[e]
+        s += 1
+        continue
+    elif li[s] * li[e] > N:
+        e -= 1
     else:
-        print("No babygin!")
-elif answer[0] == answer[1] == answer[2]:
-    print("babygin!")
-elif answer[0] + 1 == answer[1] and answer[1] + 1 == answer[2]:
-    print("babygin!")
+        s += 1
+
+if a == b:
+    print(a, a)
 else:
-    print("No babygin")
+    print(a * x, a * y)
