@@ -28,3 +28,19 @@ for i in range(0, n-k): # n - k 까지 순회
     result = max(result, part) # 둘 중 큰수만 저장
 
 print(result)
+
+
+#######################################################################################
+# 22-03-23 재풀이
+
+
+n, k = map(int, input().split())
+li = [0] + list(map(int, input().split()))
+prefix = [0] * (n + 1)
+for i in range(n + 1):
+    prefix[i] = prefix[i - 1] + li[i]
+
+answer = -(1 << 60)
+for i in range(k, n + 1):
+    answer = max(answer, prefix[i] - prefix[i - k])
+print(answer)

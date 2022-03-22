@@ -29,3 +29,19 @@ for i in li:
 for i in range(m): # li_2[p]-li_2[o-1]를 하면 계산량은 줄이고 결과는 똑같이 낼 수 있다.
     o, p = map(int, sys.stdin.readline().strip().split())
     print(li_2[p]-li_2[o-1])
+
+
+
+# 22-03-23 2번째 풀이 
+
+import sys
+
+n, m = map(int, sys.stdin.readline().strip().split())
+li = [0] + list(map(int, sys.stdin.readline().strip().split()))
+prefix = [0] * (n + 1)
+for i in range(n + 1):
+    prefix[i] = prefix[i - 1] + li[i]
+
+for i in range(m):
+    a, b = map(int, sys.stdin.readline().strip().split())
+    print(prefix[b] - prefix[a - 1])
