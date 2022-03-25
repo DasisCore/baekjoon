@@ -37,3 +37,35 @@ while True:
         low = mid
 
 print(low)
+
+
+############################################################################
+# 22-03-25 2번째 풀이
+
+# 해당 길이로 잘랐을때 상근이가 가져갈 수 있는 나무의 길이
+def check(x):
+    total = 0
+    for i in li:
+        total += max(0, i - x)
+    return total >= m
+
+n, m = map(int, input().split())
+li = list(map(int, input().split()))
+
+# 나무의 최소값
+s = 0
+# 나무의 최대값
+e = 2000000001
+
+# 이진 탐색 풀이
+while s <= e:
+    mid = (s + e) // 2
+
+    # 답이 될 수 있으면, 답 중 최댓값을 찾는다
+    if check(mid):
+        ans = mid
+        s = mid + 1
+    else:
+        e = mid - 1
+
+print(ans)

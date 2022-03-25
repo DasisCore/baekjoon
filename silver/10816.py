@@ -30,3 +30,47 @@ for i in nums:
 print(*last)
 #이 문제에서 놓치기 쉬운 곳인데, 네번째 주어지는 숫자가 중복된 것이 있으면
 # 하나만 나오지 않고, 여러 개가 나오도록 여기서 다듬어 주어야 한다.
+
+
+# + 22-03-24 2번째 풀이
+
+n = int(input())
+li = sorted(list(map(int, input().split())))
+m = int(input())
+arr = list(map(int, input().split()))
+
+for i in arr:
+    s = 0
+    e = n - 1
+
+    answer1, answer2 = 1, 0
+
+    while s <= e:
+        mid = (s + e) // 2
+
+        if li[mid] == i:
+            answer1 = mid
+            e = mid - 1
+
+        elif li[mid] < i:
+            s = mid + 1
+
+        else:
+            e = mid - 1
+
+    s = 0
+    e = n -1
+    while s <= e:
+        mid = (s + e) // 2
+
+        if li[mid] == i:
+            answer2 = mid
+            s = mid + 1
+
+        elif li[mid] < i:
+            s = mid + 1
+
+        else:
+            e = mid - 1
+
+    print(answer2 - answer1 + 1)

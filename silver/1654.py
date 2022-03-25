@@ -10,6 +10,8 @@
 # 출력 :
 # 첫째 줄에 N개를 만들 수 있는 랜선의 최대 길이를 센티미터 단위의 정수로 출력한다.
 
+########################################################################################################################
+
 import sys
 
 def lan(height, li): #랜선의 개수를 구하는 함수
@@ -43,4 +45,37 @@ while True:
         low = mid
 
 print(low)
+
+############################################################################
+# 22-03-25 2번째 풀이
+
+import sys
+
+# 만들 수 있는 랜선의 개수
+def check(x):
+    total = 0
+    for i in li:
+        total += i // x
+    return total >= n
+
+k, n = map(int, sys.stdin.readline().strip().split())
+li = []
+for i in range(k):
+    li.append(int(sys.stdin.readline().strip()))
+
+s = 1
+e = 1 << 60
+
+while s <= e:
+    mid = (s + e) // 2
+
+    # 최소 n개를 만들 수 있는 랜선의 최댓값 찾기
+    if check(mid):
+        cnt = mid
+        s = mid + 1
+
+    else:
+        e = mid - 1
+
+print(cnt)
 
