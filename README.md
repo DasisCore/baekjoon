@@ -2,6 +2,15 @@
 
 
 
+## 2022/03/30
+
+|                            난이도                            |                      번호                      |                          문제 이름                           |
+| :----------------------------------------------------------: | :--------------------------------------------: | :----------------------------------------------------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | [24060](https://www.acmicpc.net/problem/24060) | [알고리즘 수업 - 병합 정렬 1](https://www.acmicpc.net/problem/24060) |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [14716](https://www.acmicpc.net/problem/14716) |       [현수막](https://www.acmicpc.net/problem/14716)        |
+
+
+
 ## 2022/03/29
 
 |                            난이도                            |                      번호                      |                       문제 이름                        |
