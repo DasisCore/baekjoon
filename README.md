@@ -1,5 +1,46 @@
 # 22-03-20부터 작성 시작! ✏️
 
+## 2022/04/03
+
+|                            난이도                            |                      번호                      |                        문제 이름                        |
+| :----------------------------------------------------------: | :--------------------------------------------: | :-----------------------------------------------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |  [1699](https://www.acmicpc.net/problem/1699)  |   [제곱수의 합](https://www.acmicpc.net/problem/1699)   |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [11726](https://www.acmicpc.net/problem/11726) |  [2 x n 타일링](https://www.acmicpc.net/problem/11726)  |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [11727](https://www.acmicpc.net/problem/11727) | [2 x n 타일링 2](https://www.acmicpc.net/problem/11727) |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |  [9657](https://www.acmicpc.net/problem/9657)  |    [돌 게임 3](https://www.acmicpc.net/problem/9657)    |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |  [9658](https://www.acmicpc.net/problem/9658)  |    [돌 게임 4](https://www.acmicpc.net/problem/9658)    |
+
+
+
+## 2022/04/02
+
+|                            난이도                            |                      번호                      |                         문제 이름                         |
+| :----------------------------------------------------------: | :--------------------------------------------: | :-------------------------------------------------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [14501](https://www.acmicpc.net/problem/14501) |       [퇴사](https://www.acmicpc.net/problem/14501)       |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |  [9095](https://www.acmicpc.net/problem/9095)  |  [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)   |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [15988](https://www.acmicpc.net/problem/15988) | [1, 2, 3 더하기 3](https://www.acmicpc.net/problem/15988) |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [15486](https://www.acmicpc.net/problem/15486) |      [퇴사 2](https://www.acmicpc.net/problem/15486)      |
+
+
+
+## 2022/04/01
+
+|                            난이도                            |                      번호                      |                     문제 이름                      |
+| :----------------------------------------------------------: | :--------------------------------------------: | :------------------------------------------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |  [9663](https://www.acmicpc.net/problem/9663)  | [N - Queen](https://www.acmicpc.net/problem/9663)  |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [15686](https://www.acmicpc.net/problem/15686) | [치킨 배달](https://www.acmicpc.net/problem/15686) |
+
+
+
+## 2022/03/31
+
+|                            난이도                            |                      번호                      |                          문제 이름                           |
+| :----------------------------------------------------------: | :--------------------------------------------: | :----------------------------------------------------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [15810](https://www.acmicpc.net/problem/15810) |      [풍선 공장](https://www.acmicpc.net/problem/15810)      |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |  [1389](https://www.acmicpc.net/problem/1389)  | [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389) |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |  [2589](https://www.acmicpc.net/problem/2589)  |        [보물섬](https://www.acmicpc.net/problem/2589)        |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |  [2206](https://www.acmicpc.net/problem/2206)  |  [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)  |
+
 
 
 ## 2022/03/30
