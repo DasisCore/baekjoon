@@ -1,5 +1,26 @@
 # 22-03-20부터 작성 시작! ✏️
 
+## 2022/04/05
+
+|                            난이도                            |                     번호                     |                      문제 이름                      |
+| :----------------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [1780](https://www.acmicpc.net/problem/1780) | [종이의 개수](https://www.acmicpc.net/problem/1780) |
+|                                                              |                                              |                                                     |
+
+
+
+## 2022/04/04
+
+|                            난이도                            |                     번호                     |                       문제 이름                       |
+| :----------------------------------------------------------: | :------------------------------------------: | :---------------------------------------------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [1463](https://www.acmicpc.net/problem/1463) |  [1로 만들기](https://www.acmicpc.net/problem/1463)   |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [2579](https://www.acmicpc.net/problem/2579) |  [계단 오르기](https://www.acmicpc.net/problem/2579)  |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [2630](https://www.acmicpc.net/problem/2630) | [색종이 만들기](https://www.acmicpc.net/problem/2630) |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [9375](https://www.acmicpc.net/problem/9375) | [패션왕 신해빈](https://www.acmicpc.net/problem/9375) |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [9461](https://www.acmicpc.net/problem/9461) |  [파도반 수열](https://www.acmicpc.net/problem/9461)  |
+
+
+
 ## 2022/04/03
 
 |                            난이도                            |                      번호                      |                        문제 이름                        |
