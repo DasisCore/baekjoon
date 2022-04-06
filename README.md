@@ -1,11 +1,22 @@
 # 22-03-20부터 작성 시작! ✏️
 
+## 2022/04/06
+
+|                            난이도                            |                      번호                      |                          문제 이름                           |
+| :----------------------------------------------------------: | :--------------------------------------------: | :----------------------------------------------------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [11123](https://www.acmicpc.net/problem/11123) | [양 한마리... 양 두마리...](https://www.acmicpc.net/problem/11123) |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [12865](https://www.acmicpc.net/problem/12865) |     [평범한 배낭](https://www.acmicpc.net/problem/12865)     |
+
+
+
 ## 2022/04/05
 
-|                            난이도                            |                     번호                     |                      문제 이름                      |
-| :----------------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------: |
-| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [1780](https://www.acmicpc.net/problem/1780) | [종이의 개수](https://www.acmicpc.net/problem/1780) |
-|                                                              |                                              |                                                     |
+|                            난이도                            |                      번호                      |                          문제 이름                           |
+| :----------------------------------------------------------: | :--------------------------------------------: | :----------------------------------------------------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |  [1780](https://www.acmicpc.net/problem/1780)  |     [종이의 개수](https://www.acmicpc.net/problem/1780)      |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |  [1912](https://www.acmicpc.net/problem/1912)  |        [연속합](https://www.acmicpc.net/problem/1912)        |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [11053](https://www.acmicpc.net/problem/11053) | [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [11055](https://www.acmicpc.net/problem/11055) | [가장 큰 증가 부분 수열](https://www.acmicpc.net/problem/11055) |
 
 
 
