@@ -1,5 +1,14 @@
 # 22-03-20부터 작성 시작! ✏️
 
+## 2022/04/10
+
+|                            난이도                            |                      번호                      |                        문제 이름                         |
+| :----------------------------------------------------------: | :--------------------------------------------: | :------------------------------------------------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |  [1149](https://www.acmicpc.net/problem/1149)  |     [RGB 거리](https://www.acmicpc.net/problem/1149)     |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [20951](https://www.acmicpc.net/problem/20951) | [유아와 곰두리차](https://www.acmicpc.net/problem/20951) |
+
+
+
 ## 2022/04/07
 
 |                            난이도                            |                     번호                     |                      문제 이름                      |
