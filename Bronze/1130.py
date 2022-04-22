@@ -8,9 +8,12 @@
 # A와 B가 같은 경우에는 '=='를 출력한다.
 
 a = input().split(" ")
+
 if int(a[0]) > int(a[1]):
     print(">")
+
 elif int(a[0]) < int(a[1]):
     print("<")
+
 elif int(a[0]) == int(a[1]):
     print("==")
