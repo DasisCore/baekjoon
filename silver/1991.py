@@ -51,3 +51,42 @@ print()
 in_order(1)
 print()
 post_order(1)
+
+#################################################################################
+
+def pre_order(v):
+    if v:
+        print(chr(v + 64), end="")
+        pre_order(ch1[v])
+        pre_order(ch2[v])
+
+def in_order(v):
+    if v:
+        in_order(ch1[v])
+        print(chr(v + 64), end="")
+        in_order(ch2[v])
+
+def post_order(v):
+    if v:
+        post_order(ch1[v])
+        post_order(ch2[v])
+        print(chr(v + 64), end="")
+
+n = int(input())
+
+ch1 = [0 for i in range(n + 1)]
+ch2 = [0 for i in range(n + 1)]
+
+for i in range(n):
+    a, b, c = map(str, input().split())
+
+    if b != ".":
+        ch1[ord(a) - 64] = ord(b) - 64
+    if c != ".":
+        ch2[ord(a) - 64] = ord(c) - 64
+
+pre_order(1)
+print()
+in_order(1)
+print()
+post_order(1)
