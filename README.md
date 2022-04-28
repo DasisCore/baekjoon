@@ -2,9 +2,10 @@
 
 ## 2022/04/27
 
-|                            난이도                            |                     번호                     |                      문제 이름                      |
-| :----------------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------: |
-| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [6615](https://www.acmicpc.net/problem/6615) | [콜라츠 추측](https://www.acmicpc.net/problem/6615) |
+|                            난이도                            |                     번호                     |                          문제 이름                           |
+| :----------------------------------------------------------: | :------------------------------------------: | :----------------------------------------------------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [6615](https://www.acmicpc.net/problem/6615) |     [콜라츠 추측](https://www.acmicpc.net/problem/6615)      |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [3584](https://www.acmicpc.net/problem/3584) | [가장 가까운 공통 조상](https://www.acmicpc.net/problem/3584) |
 
 
 
