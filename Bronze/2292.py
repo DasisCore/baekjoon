@@ -30,6 +30,7 @@ for i in range(1, N):
     if a <= N and a + jump >= N:
         print(box)
         break
+    
     else:
         a = a + jump + 1
         jump += 6
