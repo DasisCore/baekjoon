@@ -19,7 +19,6 @@ after = 0
 for i in nums[1]:
     after += int(i)
 
-
 answer = 0
 for i in nums[0]:
     answer += int(i)*after
