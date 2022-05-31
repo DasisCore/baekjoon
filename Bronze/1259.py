@@ -16,11 +16,14 @@ while True:  #계속해서 반복되도록 함
     num = str(input())
     if num != "0":
         x = ""
+
         for i in range(len(num)-1, -1, -1): #문자를 거꾸로 적는 for문
             x += num[i]
+
         if x == num:
             print("yes")
         else:
             print("no")
+            
     elif num == "0": # 입력을 마치기 위함
         break
