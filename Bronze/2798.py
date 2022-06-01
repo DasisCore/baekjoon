@@ -21,10 +21,12 @@ def check_plus(a):
     if a <= in_put[1]:
         answer.append(a)
 
+
 in_put = input()
 in_put = in_put.split(" ")
 in_put = list(map(int, in_put)) #처음 입력값을 받아 N과 M을 분리
 # N = in_put[0]  , M = in_put[1]
+
 
 card = input()
 card = card.split(" ")
