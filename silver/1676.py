@@ -13,6 +13,7 @@ n = int(input())
 total = 1
 for i in range(1, 1 + n):
     total *= i
+    
 total = str(total)
 
 cnt = 0
