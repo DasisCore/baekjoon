@@ -17,6 +17,7 @@ def BFS(n):
     global k
     queue = [n]
     while queue:
+        
         n = queue.pop(0)
 
         if n == k:
