@@ -18,6 +18,7 @@ def tree_cnt(H, li):
             result += i - H
     return result
 
+
 n, m = map(int, input().split(" "))
 trees = list(map(int, input().split(" ")))
 
