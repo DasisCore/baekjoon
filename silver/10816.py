@@ -10,6 +10,7 @@
 # 첫째 줄에 입력으로 주어진 M개의 수에 대해서, 각 수가 적힌 숫자 카드를 상근이가 몇 개 가지고 있는지를 공백으로 구분해 출력한다.
 
 import sys #숫자를 조금이라도 빨리 받기 위한 발악
+
 num_1 = int(sys.stdin.readline())
 card = list(map(int, sys.stdin.readline().strip().split(" ")))
 num_2 = int(sys.stdin.readline())
