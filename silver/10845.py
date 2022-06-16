@@ -22,26 +22,32 @@ n = int(sys.stdin.readline())
 li = []
 for i in range(n):
     enter = sys.stdin.readline().strip()
+
     if 'push' in enter: 
         enter, num = enter.split(" ") 
         li.append(int(num))
+
     elif enter == 'pop':
         if len(li) == 0:
             print(-1)
         else:
             print(li.pop(0))
+
     elif enter == 'size':
         print(len(li))
+
     elif enter == 'empty':
         if len(li):
             print(0)
         else:
             print(1)
+
     elif enter == 'front':
         if len(li):
             print(li[0])
         else:
             print(-1)
+            
     else:
         if len(li):
             print(li[-1])
