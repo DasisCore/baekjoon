@@ -11,10 +11,12 @@
 count = int(input())
 
 num = input()
+
 num = list(map(str, num)) #쪼개기 위해 문자열 기준으로 자르기
 num = list(map(int, num)) #리스트를 int로 변환
 
 answer = 0
+
 for i in range(0, count):
     answer += num[i]
 print(answer)
