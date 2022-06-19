@@ -22,6 +22,7 @@ li = list(map(int, sys.stdin.readline().strip().split()))
 
 li_2 = [0] #누적합 리스트
 total = 0
+
 for i in li:
     total += i
     li_2.append(total)
@@ -29,7 +30,6 @@ for i in li:
 for i in range(m): # li_2[p]-li_2[o-1]를 하면 계산량은 줄이고 결과는 똑같이 낼 수 있다.
     o, p = map(int, sys.stdin.readline().strip().split())
     print(li_2[p]-li_2[o-1])
-
 
 
 # 22-03-23 2번째 풀이 
